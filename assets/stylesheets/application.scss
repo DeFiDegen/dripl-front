@@ -1,6 +1,7 @@
 @import './navbar.scss';
 @import './buttons.scss';
 @import './banner.scss';
+@import './about.scss';
 
 body {
   font-family: Helvetica;
@@ -12,9 +13,5 @@ body {
 
 .box {
   margin: 0 auto;
-  max-width: 1200px;
-}
-
-.home-icon {
-  max-width: 200px;
+  max-width: 900px;
 }

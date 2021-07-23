@@ -9,18 +9,20 @@ const Home = () => {
           <button type="button" id="call-to-action-btn">Dripl your art</button>
         </Link>
       </div>
-      <div className="about-section">
-        <div className="about-item">
-          <p>Upload a beat</p>
-          <img src="../../assets/images/driplMusicIcon.jpg" alt="" className="home-icon" />
-        </div>
-          <p>Upload an image</p>
-        <div className="about-item">
-          <img src="../../assets/images/driplPhotoIcon.png" alt="" className="home-icon" />
-        </div>
-        <div className="about-item">
-          <p>Dripl</p>
-          <img src="../../assets/images/driplDripIcon.png" alt="" className="home-icon" />
+      <div className="box">
+        <div className="about-section">
+          <div className="about-item">
+            <p>Upload a beat</p>
+            <img src="../../assets/images/driplMusicIcon.jpg" alt="" className="home-icon" />
+          </div>
+          <div className="about-item">
+            <p>Upload an image</p>
+            <img src="../../assets/images/driplPhotoIcon.png" alt="" className="home-icon" />
+          </div>
+          <div className="about-item">
+            <p>Dripl</p>
+            <img src="../../assets/images/driplDripIcon.png" alt="" className="home-icon" />
+          </div>
         </div>
       </div>
     </>
