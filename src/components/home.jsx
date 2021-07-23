@@ -24,6 +24,7 @@ const Home = () => {
             <img src="../../assets/images/driplDripIcon.png" alt="" className="home-icon" />
           </div>
         </div>
+        <p style={{ textAlign: 'center' }}> IT'S THAT EASY</p>
       </div>
     </>
   );
