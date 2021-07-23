@@ -13,18 +13,18 @@ const Home = () => {
         <div className="about-section">
           <div className="about-item">
             <p>Upload a beat</p>
-            <img src="../../assets/images/driplMusicIcon.jpg" alt="" className="home-icon" />
+            <img src="../../assets/images/driplMusicIcon.jpg" alt="" />
           </div>
           <div className="about-item">
             <p>Upload an image</p>
-            <img src="../../assets/images/driplPhotoIcon.png" alt="" className="home-icon" />
+            <img src="../../assets/images/driplPhotoIcon.png" alt="" />
           </div>
           <div className="about-item">
             <p>Dripl</p>
-            <img src="../../assets/images/driplDripIcon.png" alt="" className="home-icon" />
+            <img src="../../assets/images/driplDripIcon.png" alt="" />
           </div>
         </div>
-        <p style={{ textAlign: 'center' }}> IT'S THAT EASY</p>
+        <p style={{ textAlign: 'center', fontSize: '24px', margin: "8px auto" }}> IT'S THAT EASY</p>
       </div>
     </>
   );

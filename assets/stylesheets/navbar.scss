@@ -4,7 +4,7 @@
   justify-content: space-between;
   margin: 0 auto;
   .logo {
-    width: 65px;
+    width: 85px;
   }
   .right-nav {
     display: flex;
@@ -13,5 +13,8 @@
   .left-nav {
     display: flex;
     padding-right: 100px;
+  }
+  button {
+    font-size: 16px;
   }
 }
