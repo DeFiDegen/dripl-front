@@ -1,23 +1,5 @@
-// #home-img {
-//   max-width: 100%;
-// }
-
-// .banner {
-//   // background-image: url('../images/homeBackgroundArt.jpeg');
-//   // background-repeat: no-repeat;
-//   // width: 10px;
-//   // height: 20px;
-//   #home-img {
-//     position: relative;
-//     z-index: 1;
-//   }
-//   button {
-//     position: absolute;
-//     z-index: 2;
-//     top: 37%;
-//     left: 37%;
-//   }
-// }
+// Image is imported within home.jsx
+// unsolved error is thrown if image is imported within .scss file
 .banner {
   // background-image: url("../images/homeBackgroundArt.jpeg");
   width: 100%;

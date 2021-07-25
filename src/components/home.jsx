@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
 
+// .banner image is imported as inline styling due to unsolved error mentioned in banner.scss
 const Home = () => {
   return (
     <>
