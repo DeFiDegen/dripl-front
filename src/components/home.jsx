@@ -7,22 +7,22 @@ const Home = () => {
     <>
       <div className="banner" style={{ backgroundImage: "url('../../assets/images/homeBackgroundArt.jpeg')" }}>
         <Link to="/create">
-          <button type="button" id="call-to-action-btn">Dripl your art</button>
+          <button type="button" id="call-to-action-btn">dripl your art</button>
         </Link>
       </div>
       <div className="box">
         <div className="about-section">
           <div className="about-item">
-            <p>Upload a beat</p>
-            <img src="../../assets/images/driplMusicIcon.jpg" alt="" />
+            <p>upload a beat</p>
+            <img src="../../assets/images/driplMusicIcon.svg" alt="" />
           </div>
           <div className="about-item">
-            <p>Upload an image</p>
-            <img src="../../assets/images/driplPhotoIcon.png" alt="" />
+            <p>upload an image</p>
+            <img src="../../assets/images/driplPhotoIcon.svg" alt="" />
           </div>
           <div className="about-item">
-            <p>Dripl</p>
-            <img src="../../assets/images/driplDripIcon.png" alt="" />
+            <p>dripl</p>
+            <img src="../../assets/images/driplDripIcon.svg" alt="" />
           </div>
         </div>
         <p style={{ textAlign: 'center', fontSize: '24px', margin: "8px auto" }}> IT'S THAT EASY</p>
