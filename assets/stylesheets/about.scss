@@ -7,19 +7,18 @@
   margin: 24px 12px;
 }
 
-// Experimenting with box shadow for subtle dynamics/styling
 .about-item {
   padding: 0 12px;
   p {
-    font-size: 24px;
+    font-size: 20px;
+    color: rgba(18, 18, 66, 0.849);
+    // color: rgba(0, 0, 0, 0.848);
+    font-weight: 200;
     // background: rgba(30, 29, 102, 0.0495);
     // border-radius: 75px;
     // box-shadow: 0px 0px 100px rgba(30, 29, 102, 0.253);
   }
   img {
     max-width: 230px;
-    background: rgba(30, 29, 102, 0.05);
-    box-shadow: 0px 0px 200px rgba(30, 29, 102, 0.253);
-    border-radius: 60px;
   }
 }
