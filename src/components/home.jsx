@@ -25,7 +25,7 @@ const Home = () => {
             <img src="../../assets/images/driplDripIconBlue.svg" alt="" />
           </div>
         </div>
-        <p style={{ textAlign: 'center', fontSize: '24px', margin: "8px auto" }}> IT'S THAT EASY</p>
+        <p className="slogan"> IT'S THAT EASY</p>
       </div>
     </>
   );

@@ -1,5 +1,5 @@
 #call-to-action-btn {
-  background: black;
+  background: rgba(18, 18, 66, 0.849);
   border-radius: 75px;
   padding: 8px 32px;
   font-size: 20px;
@@ -19,9 +19,9 @@ button {
   background-color: rgba(0, 0, 0, 0);
   border: 0px;
   padding: 0px 12px;
-  color: rgb(61, 61, 61);
+  color: rgba(0, 0, 0, 0.712);
 }
 button:hover {
-  color: black;
+  color: rgba(18, 18, 66, 0.849);
   transition-duration: 200ms;
 }
