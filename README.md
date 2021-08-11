@@ -1,6 +1,6 @@
-# react-boilerplate
+# Dripl Your Art
 
-Simple react starter with the following config:
+React starter with the following config:
 
 - React, ReactDOM
 - Webpack 4
