@@ -13,15 +13,15 @@ const Home = () => {
       <div className="box">
         <div className="about-section">
           <div className="about-item">
-            <p>upload a beat</p>
+            <p>Upload a Beat</p>
             <img src="../../assets/images/driplMusicIconBlue.svg" alt="" />
           </div>
           <div className="about-item">
-            <p>upload an image</p>
+            <p>Upload an Image</p>
             <img src="../../assets/images/driplPhotoIconBlue.svg" alt="" />
           </div>
           <div className="about-item">
-            <p>dripl</p>
+            <p>Dripl</p>
             <img src="../../assets/images/driplDripIconBlue.svg" alt="" />
           </div>
         </div>
