@@ -25,7 +25,7 @@ class Create extends React.Component {
     console.log(this.state);
   }
 
-  handleSubmit = () => {
+  handleUpload = () => {
     console.log(this.state);
   }
 
@@ -34,7 +34,7 @@ class Create extends React.Component {
       <div className="box">
         <input type="file" name="image" onChange={this.handleImage} />
         <input type="file" name="music" onChange={this.handleMusic} />
-        <button type="submit" onClick={this.handleSubmit}>Submit</button>
+        <button type="submit" onClick={this.handleUpload}>Upload</button>
       </div>
     );
   }
