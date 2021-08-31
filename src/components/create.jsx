@@ -1,4 +1,5 @@
 import React from "react";
+import axios from "axios";
 
 class Create extends React.Component {
   constructor(props) {
@@ -23,8 +24,19 @@ class Create extends React.Component {
     });
   }
 
+  // **____INCOMPLETE____** ]
   handleUpload = () => {
-    console.log(this.state);
+    // console.log(this.state);
+    // create new FormData object, then store component state inside
+    const data = new FormData();
+    data.append("image", this.state.selectedImage, this.state.selectedImage.name);
+    data.append("music", this.state.selectedMusic, this.state.selectedMusic.name);
+    // call axios post method to server endpoint, then console log response from the server
+    // ___IMPORTANT___ must setup up api endpoint for this to work
+    axios.post("url", data)
+      .then((response) => {
+        console.log(response);
+      });
   }
 
   render() {

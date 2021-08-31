@@ -27,6 +27,7 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "emailjs-com": "^3.2.0",
     "react": "16.2",
     "react-dom": "16.2",
