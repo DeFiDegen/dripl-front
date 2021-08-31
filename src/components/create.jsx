@@ -1,4 +1,5 @@
 import React from "react";
+import axios from "axios";
 
 class Create extends React.Component {
   constructor(props) {
@@ -14,7 +15,6 @@ class Create extends React.Component {
     this.setState({
       selectedImage: image
     });
-    console.log(this.state);
   }
 
   handleMusic = (event) => {
@@ -22,19 +22,40 @@ class Create extends React.Component {
     this.setState({
       selectedMusic: music
     });
-    console.log(this.state);
   }
 
-  handleUpload = () => {
+  // // **____INCOMPLETE____**
+  handleUpload = (event) => {
+    event.preventDefault();
     console.log(this.state);
+    // create new FormData object, then store component state inside
+    const data = new FormData();
+    data.append("image", this.state.selectedImage, this.state.selectedImage.name);
+    data.append("music", this.state.selectedMusic, this.state.selectedMusic.name);
+
+    // call axios post method to server endpoint, then console log response from the server
+    // ___IMPORTANT___ must setup up api endpoint for this to work
+    axios.post("url", data)
+      .then((response) => {
+        console.log(response);
+      });
   }
 
   render() {
     return (
       <div className="box">
-        <input type="file" name="image" onChange={this.handleImage} />
-        <input type="file" name="music" onChange={this.handleMusic} />
-        <button type="submit" onClick={this.handleUpload}>Upload</button>
+        <h2>Create</h2>
+        <form id="create-form" onSubmit={this.handleUpload}>
+          <div className="form-group">
+            <label>Image</label>
+            <input type="file" className="form-control" name="image" onChange={this.handleImage} />
+          </div>
+          <div className="form-group">
+            <label>Music</label>
+            <input type="file" className="form-control" name="music" onChange={this.handleMusic} />
+          </div>
+          <button type="submit">Upload</button>
+        </form>
       </div>
     );
   }
