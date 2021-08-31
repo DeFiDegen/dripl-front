@@ -25,7 +25,7 @@ const Home = () => {
             <img src="../../assets/images/driplDripIconBlue.svg" alt="" />
           </div>
         </div>
-        <p className="slogan"> IT'S THAT EASY</p>
+        <p className="slogan">IT'S THAT EASY</p>
       </div>
     </>
   );
