@@ -9,8 +9,10 @@ const Navbar = ({ location }) => {
         <div className="left-nav">
           <Link to="/">
             <img src="../../assets/images/navLogo.jpg" alt="" className="logo" />
-            <button type="button" className={`${location.pathname === "/" ? "active" : ""}`}>Dripl</button>
           </Link>
+          {/* <Link to="/">
+            <button type="button" className={`${location.pathname === "/" ? "active" : ""}`}>Dripl</button>
+          </Link> */}
         </div>
         <div className="right-nav">
           <Link to="/create">

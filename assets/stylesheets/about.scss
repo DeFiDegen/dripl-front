@@ -1,14 +1,17 @@
 // About section at "/"
 
 .about-section {
+  width: 100%;
   display: flex;
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
   margin: 24px 12px;
+  flex-wrap: wrap;
 }
 
 .about-item {
   padding: 0 12px;
+  margin-top: 8px;
   p {
     font-size: 20px;
     color: rgba(18, 18, 66, 0.849);
