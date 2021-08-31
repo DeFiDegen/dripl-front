@@ -2,17 +2,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 auto;
+  // margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
   .logo {
     width: 85px;
   }
   .right-nav {
     display: flex;
-    padding-left: 100px;
   }
   .left-nav {
     display: flex;
-    padding-right: 100px;
+    align-items: center;
   }
   button {
     font-size: 16px;
