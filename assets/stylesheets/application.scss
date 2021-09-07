@@ -10,6 +10,7 @@
 
 body {
   font-family: 'Exo 2', sans-serif;
+  background-color: rgb(241, 241, 241);
 }
 
 #root {
@@ -20,4 +21,7 @@ body {
 .box {
   margin: 0 auto;
   max-width: 80%;
+  h2 {
+    text-align: center;
+  }
 }

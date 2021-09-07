@@ -58,7 +58,13 @@ class Contact extends React.Component {
             <label>Message</label>
             <textarea className="form-control" rows="5" name="message" value={message} onChange={this.onMessageChange.bind(this)} />
           </div>
-          <button type="submit">Submit</button>
+          <button
+            type="submit"
+            disabled={this.state.name && this.state.email && this.state.message ? "" : "true"}
+            className={this.state.name && this.state.email && this.state.message ? "" : "disabled"}
+          >
+            Submit
+          </button>
         </form>
       </div>
     );

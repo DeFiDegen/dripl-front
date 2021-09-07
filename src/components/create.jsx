@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/label-has-for */
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from "react";
 import axios from "axios";
 
@@ -46,15 +48,27 @@ class Create extends React.Component {
       <div className="box">
         <h2>Create</h2>
         <form id="create-form" onSubmit={this.handleUpload}>
-          <div className="form-group">
-            <label>Image</label>
-            <input type="file" className="form-control" name="image" onChange={this.handleImage} />
+          <div className="upload-box">
+            <div className={`form-group ${this.state.selectedImage ? "file-selected" : ""}`}>
+              <label htmlFor="content-image-upload">
+                <img className="uploadIcon" src={this.state.selectedImage ? this.state.selectedImage.name : "../../assets/images/driplPhotoIconBlue.svg"} alt="upload png" />
+              </label>
+              <input type="file" id="content-image-upload" name="image" onChange={this.handleImage} />
+            </div>
+            <div className={`form-group ${this.state.selectedMusic ? "file-selected" : ""}`}>
+              <label htmlFor="content-music-upload">
+                <img className="uploadIcon" src={this.state.selectedMusic ? this.state.selectedMusic.name : "../../assets/images/driplMusicIconBlue.svg"} alt="upload wav" />
+              </label>
+              <input type="file" id="content-music-upload" name="music" onChange={this.handleMusic} />
+            </div>
           </div>
-          <div className="form-group">
-            <label>Music</label>
-            <input type="file" className="form-control" name="music" onChange={this.handleMusic} />
-          </div>
-          <button type="submit">Upload</button>
+          <button
+            disabled={this.state.selectedImage && this.state.selectedMusic ? "" : "true"} 
+            className={this.state.selectedImage && this.state.selectedMusic ? "" : "disabled"}
+            type="submit"
+          >
+            Upload
+          </button>
         </form>
       </div>
     );
