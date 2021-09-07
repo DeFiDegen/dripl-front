@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  // margin: 0 auto;
+  margin: 8px auto;
   flex-wrap: wrap;
   flex-direction: column;
   .logo {
@@ -18,10 +18,10 @@
     align-items: center;
   }
   button {
-    font-size: 16px;
+    font-size: 18px;
   }
   .active {
-    color: rgba(18, 18, 66, 0.849);
-    border-bottom: 2px dotted rgba(18, 18, 66, 0.249);
+    color: rgba(18, 18, 66, 0.149);
+    // color: transparent;
   }
 }

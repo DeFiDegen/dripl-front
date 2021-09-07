@@ -47,6 +47,7 @@ class Create extends React.Component {
     return (
       <div className="box">
         <h2>Create</h2>
+        <p>Upload an image(.jpg) and a song(.wav)</p>
         <form id="create-form" onSubmit={this.handleUpload}>
           <div className="upload-box">
             <div className={`form-group ${this.state.selectedImage ? "file-selected" : ""}`}>
