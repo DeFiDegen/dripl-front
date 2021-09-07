@@ -17,11 +17,14 @@ body {
   height: 100vh;
 }
 
-// Sets content box size
+// Sets content box properties
 .box {
   margin: 0 auto;
   max-width: 80%;
   h2 {
+    text-align: center;
+  }
+  p {
     text-align: center;
   }
 }

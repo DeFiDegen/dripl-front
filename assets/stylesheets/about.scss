@@ -18,9 +18,8 @@
     font-weight: 300;
   }
   img {
-    max-width: 200px;
+    max-width: 250px;
     margin-top: 12px;
-    // box-shadow: 0px 0px 75px rgba(18, 18, 66, 0.663);
     border-radius: 100%;
   }
 }
@@ -28,6 +27,7 @@
 .slogan {
   text-align: center;
   font-size: 24px;
-  margin: 8px auto;
+  // margin: 8px auto;
+  padding-bottom: 20px;
   color: rgba(18, 18, 66, 0.849);
 }

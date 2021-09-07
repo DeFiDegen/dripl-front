@@ -1,16 +1,19 @@
 #call-to-action-btn {
-  background: rgba(18, 18, 66, 0.849);
+  // background: rgba(18, 18, 66, 0.849);
+  background: rgba(255, 255, 255, 0.649);
   border-radius: 75px;
+  border: 1px solid rgba(18, 18, 66, 0.849);
   padding: 8px 32px;
   font-size: 20px;
-  color: whitesmoke;
+  color: rgba(18, 18, 66, 0.949);
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.253);
+  transition-duration: 500ms;
 }
 
 #call-to-action-btn:hover {
+  background: rgba(18, 18, 66, 0.949);
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.553);
   color: white;
-  transition-duration: 300ms;
 }
 
 #upload-btn {
@@ -31,12 +34,12 @@
 // Removing default stlying
 button {
   text-decoration: none;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   border: 0px;
   padding: 0px 12px;
-  color: rgba(0, 0, 0, 0.712);
+  color: rgba(80, 80, 110, 0.644);
 }
 button:hover {
   color: rgba(18, 18, 66, 0.849);
-  transition-duration: 200ms;
+  transition-duration: 500ms;
 }
