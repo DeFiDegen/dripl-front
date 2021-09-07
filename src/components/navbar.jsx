@@ -8,7 +8,7 @@ const Navbar = ({ location }) => {
       <div className="navbar">
         <div className="left-nav">
           <Link to="/">
-            <img src="../../assets/images/navLogo.jpg" alt="" className="logo" />
+            <img src="../../assets/images/navLogo.svg" alt="" className="logo" />
           </Link>
           {/* <Link to="/">
             <button type="button" className={`${location.pathname === "/" ? "active" : ""}`}>Dripl</button>
