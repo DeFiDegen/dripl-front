@@ -62,7 +62,13 @@ class Create extends React.Component {
               <input type="file" id="content-music-upload" name="music" onChange={this.handleMusic} />
             </div>
           </div>
-          <button disabled={this.state.selectedImage && this.state.selectedMusic ? "" : "true"} className={this.state.selectedImage && this.state.selectedMusic ? "" : "disabled"} type="submit">Upload</button>
+          <button
+            disabled={this.state.selectedImage && this.state.selectedMusic ? "" : "true"} 
+            className={this.state.selectedImage && this.state.selectedMusic ? "" : "disabled"}
+            type="submit"
+          >
+            Upload
+          </button>
         </form>
       </div>
     );
